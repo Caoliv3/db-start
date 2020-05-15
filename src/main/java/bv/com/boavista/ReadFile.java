@@ -44,18 +44,6 @@ public class ReadFile {
 		return dados;
 	}
 	
-	
-	
-//	public String lerLinha() {
-//
-//		try {
-//			linha = buffer.readLine();
-//		} catch (IOException e) {
-//			System.out.println("Erro nao leitura do arquivo!\n" + e.getMessage());
-//			e.printStackTrace();
-//		}
-//		return linha;
-//	}
 
 	public void close() {
 		try {
